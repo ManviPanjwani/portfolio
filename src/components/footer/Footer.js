@@ -19,7 +19,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            developerFolio
+            Manvi Panjwani
           </a>
         </p>
       </div>
