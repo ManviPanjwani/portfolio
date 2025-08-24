@@ -17,14 +17,14 @@ const greeting = {
   subTitle: emoji(
     "An enthusiastic Computer Science graduate student with hands-on experience in software engineering, cloud security, and AI-driven application development. Skilled in full-stack development and passionate about solving real-world problems through scalable tech solutions."
   ),
-  resumeLink: "https://drive.google.com/file/d/1qZBDD6X7A-_-RV1ESEIQ4kR60LDMwIym/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1zdMMZ_jcFMZTwx3SVLKFlKQNI4P74Y0q/view?usp=sharing",
   displayGreeting: true
 };
 
 const socialMediaLinks = {
   github: "https://github.com/ManviPanjwani",
   linkedin: "https://www.linkedin.com/in/manvi-panjwani/",
-  gmail: "MPanjwani@clarku.edu",
+  gmail: "manvi.panjwani@gmail.com",
   display: true
 };
 
@@ -84,6 +84,13 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "Governance Engineer Intern",
+      company: "GlaxoSmithKline",
+      companylogo: require("./assets/images/GSK.png"),
+      date: "May 2025 – August 2025",
+      desc: "Implemented policy-as-code with OPA, built Rego policies, and automated governance workflows to enhance compliance and adoption."
+    },
+    {
       role: "Associate Software Engineer",
       company: "Nokia",
       companylogo: require("./assets/images/NokiaLOGO.png"),
@@ -135,6 +142,18 @@ const achievementSection = {
   title: emoji("Achievements And Certifications 🏆"),
   subtitle: "Certifications & recognitions",
   achievementsCards: [
+    {
+      title: "AWS certified Developer",
+      subtitle: "Certified by Amazon Web Services (2025)",
+      image: require("./assets/images/AWS.jpeg"),
+      footerLink: []
+    },
+    {
+      title: "AWS certified AI Practitioner",
+      subtitle: "Certified by Amazon Web Services (2025)",
+      image: require("./assets/images/AWS.jpeg"),
+      footerLink: []
+    },
     {
       title: "CCNA Routing and Switching",
       subtitle: "Certified by Cisco (2020)",
@@ -189,7 +208,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Want to collaborate or chat? Reach out!",
   number: "+1-331-203-2895",
-  email_address: "MPanjwani@clarku.edu"
+  email_address: "manvi.panjwani@gmail.com"
 };
 
 const twitterDetails = {
