@@ -87,7 +87,7 @@ const workExperiences = {
     {
       role: "Visiting Researcher",
       company: "Softmax",
-      companylogo: require("./assets/images/AILogo.png"),
+      companylogo: require("./assets/images/SoftmaxLogo.svg"),
       date: "Jan 2026 – Mar 2026",
       desc: "Built reinforcement-learning experiments for multi-agent AI systems and developed evaluation and observability pipelines to benchmark reasoning, coordination, and alignment at scale."
     },
@@ -146,7 +146,7 @@ const achievementSection = {
     {
       title: "Google Cloud Professional Machine Learning Engineer",
       subtitle: "Certified by Google Cloud (2025)",
-      image: require("./assets/images/AILogo.png"),
+      image: require("./assets/images/GoogleCloudMLBadge.png"),
       footerLink: []
     },
     {
