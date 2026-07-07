@@ -2,6 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
+jest.mock("colorthief", () =>
+  jest.fn().mockImplementation(() => ({getColor: () => [108, 99, 255]}))
+);
+
 Object.defineProperty(window, "matchMedia", {
   writable: true,
   value: jest.fn().mockImplementation(query => ({

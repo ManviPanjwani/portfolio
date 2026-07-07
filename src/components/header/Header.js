@@ -27,7 +27,7 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="/" className="logo">
+        <a href="#top" className="logo" aria-label="Back to top">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
@@ -73,7 +73,9 @@ function Header() {
           )}
           {viewResume && (
             <li>
-              <a href="https://drive.google.com/file/d/1zdMMZ_jcFMZTwx3SVLKFlKQNI4P74Y0q/view">Resume</a>
+              <a href={require("../../containers/greeting/PanjwaniManviResume.pdf")}>
+                Resume
+              </a>
             </li>
           )}
           <li>
