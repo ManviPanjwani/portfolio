@@ -2,7 +2,7 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
 
 const splashScreen = {
-  enabled: true,
+  enabled: false,
   animation: splashAnimation,
   duration: 2000
 };
@@ -13,11 +13,11 @@ const illustration = {
 
 const greeting = {
   username: "Manvi Panjwani",
-  title: "Hi all, I'm Manvi Panjwani",
+  title: "I build reliable AI systems and cloud platforms.",
   subTitle: emoji(
-    "An enthusiastic Computer Science graduate student with hands-on experience in software engineering, cloud security, and AI-driven application development. Skilled in full-stack development and passionate about solving real-world problems through scalable tech solutions."
+    "Software engineer and AI researcher focused on agentic workflows, evaluation systems, cloud infrastructure, and production-grade developer tooling."
   ),
-  resumeLink: "https://drive.google.com/file/d/1zdMMZ_jcFMZTwx3SVLKFlKQNI4P74Y0q/view?usp=sharing",
+  resumeLink: "PanjwaniManviResume.pdf",
   displayGreeting: true
 };
 
@@ -29,12 +29,12 @@ const socialMediaLinks = {
 };
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "SOFTWARE DEVELOPER WHO LOVES TO EXPLORE TECH",
+  title: "What I build",
+  subTitle: "AI SYSTEMS, CLOUD PLATFORMS, AND FULL-STACK PRODUCTS",
   skills: [
-    emoji("⚡ Build responsive Websites and Mobile apps"),
-    emoji("⚡ Optimize cloud infrastructure using Kubernetes, Docker, and AWS"),
-    emoji("⚡ Work with AI/ML and Data Science for smart applications")
+    emoji("⚡ Design agentic AI and RAG workflows with measurable evaluation pipelines"),
+    emoji("⚡ Build reliable cloud infrastructure with AWS, GCP, Docker, Kubernetes, and Terraform"),
+    emoji("⚡ Ship full-stack products and APIs with Python, TypeScript, React, and FastAPI")
   ],
   softwareSkills: [
     { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
@@ -43,6 +43,7 @@ const skillsSection = {
     { skillName: "reactjs", fontAwesomeClassname: "fab fa-react" },
     { skillName: "nodejs", fontAwesomeClassname: "fab fa-node" },
     { skillName: "python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "AI / LLM", fontAwesomeClassname: "fas fa-brain" },
     { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
     { skillName: "aws", fontAwesomeClassname: "fab fa-aws" },
     { skillName: "sql-database", fontAwesomeClassname: "fas fa-database" }
@@ -57,8 +58,8 @@ const educationInfo = {
       schoolName: "Clark University",
       logo: require("./assets/images/ClarkUniversityLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "Expected December 2025",
-      desc: "STEM Program with focus on software engineering, AI/ML, cloud computing and data analysis."
+      duration: "December 2025",
+      desc: "STEM program focused on software engineering, AI/ML, cloud computing, and data analysis."
     },
     {
       schoolName: "Amity University",
@@ -73,8 +74,8 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Frontend", progressPercentage: "80%" },
-    { Stack: "Backend", progressPercentage: "95%" },
+    { Stack: "AI & LLM systems", progressPercentage: "92%" },
+    { Stack: "Software engineering", progressPercentage: "95%" },
     { Stack: "Cloud & DevOps", progressPercentage: "90%" }
   ],
   displayCodersrank: false
@@ -84,18 +85,25 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "Visiting Researcher",
+      company: "Softmax",
+      companylogo: require("./assets/images/AILogo.png"),
+      date: "Jan 2026 – Mar 2026",
+      desc: "Built reinforcement-learning experiments for multi-agent AI systems and developed evaluation and observability pipelines to benchmark reasoning, coordination, and alignment at scale."
+    },
+    {
       role: "Governance Engineer Intern",
       company: "GlaxoSmithKline",
       companylogo: require("./assets/images/GSK.png"),
       date: "May 2025 – August 2025",
-      desc: "Implemented policy-as-code with OPA, built Rego policies, and automated governance workflows to enhance compliance and adoption."
+      desc: "Implemented policy-as-code with Open Policy Agent and Rego, improved engineering onboarding, and supported CI/CD and Terraform deployment workflows for scalable governance."
     },
     {
       role: "Associate Software Engineer",
       company: "Nokia",
       companylogo: require("./assets/images/NokiaLOGO.png"),
       date: "Jul 2022 – Jan 2024",
-      desc: "Managed tasks related to node discovery, router domain management, and security association configuration, significantly improving the platform’s operational speed and reliability."
+      desc: "Improved the reliability and operational efficiency of large-scale distributed network management systems through production debugging, automation, monitoring, and validation workflows."
     },
     {
       role: "Graduate Engineer Trainee Intern",
@@ -103,13 +111,6 @@ const workExperiences = {
       companylogo: require("./assets/images/NokiaLOGO.png"),
       date: "Mar 2022 – Jun 2022",
       desc: "Conducted research and documented NSP operations, enhancing stakeholder engagement."
-    },
-    {
-      role: "Data Science Project Lead Intern",
-      company: "Technocolabs Software",
-      companylogo: require("./assets/images/TechnocolabsSoftwareLogo.png"),
-      date: "Mar 2021 – Apr 2021",
-      desc: "Led a team of 12 in machine learning projects, presented analytical reports to stakeholders."
     }
   ]
 };
@@ -124,14 +125,14 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/AILogo.png"),
-      projectName: "AI-Powered Cloud Security System",
-      projectDesc: "Optimizes containerized apps and detects cloud threats using AI.",
+      projectName: "PocketPilot",
+      projectDesc: "AI-powered assistant that interprets natural language, produces structured outputs, and connects LLM workflows to real-time backend APIs.",
       footerLink: []
     },
     {
       image: require("./assets/images/SafeBitesLogo.png"),
-      projectName: "Ingredient Classifier App",
-      projectDesc: "Barcode scanning app to assess health impact of food & personal care products.",
+      projectName: "AI/ML Ingredient Classification",
+      projectDesc: "Full-stack barcode-scanning web and mobile product that assesses the health impact of food and personal-care ingredients.",
       footerLink: []
     }
   ],
@@ -142,6 +143,12 @@ const achievementSection = {
   title: emoji("Achievements And Certifications 🏆"),
   subtitle: "Certifications & recognitions",
   achievementsCards: [
+    {
+      title: "Google Cloud Professional Machine Learning Engineer",
+      subtitle: "Certified by Google Cloud (2025)",
+      image: require("./assets/images/AILogo.png"),
+      footerLink: []
+    },
     {
       title: "AWS certified Developer",
       subtitle: "Certified by Amazon Web Services (2025)",
@@ -205,8 +212,8 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle: "Want to collaborate or chat? Reach out!",
+  title: emoji("Let's build something useful"),
+  subtitle: "I'm open to software engineering, AI, and platform opportunities.",
   number: "+1-331-203-2895",
   email_address: "manvi.panjwani@gmail.com"
 };
