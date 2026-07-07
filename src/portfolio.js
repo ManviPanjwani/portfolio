@@ -87,7 +87,7 @@ const workExperiences = {
     {
       role: "Visiting Researcher",
       company: "Softmax",
-      companylogo: require("./assets/images/SoftmaxLogo.svg"),
+      companylogo: require("./assets/images/SoftmaxLinkedInLogo.jpg"),
       date: "Jan 2026 – Mar 2026",
       desc: "Built reinforcement-learning experiments for multi-agent AI systems and developed evaluation and observability pipelines to benchmark reasoning, coordination, and alignment at scale."
     },
