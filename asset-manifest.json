@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.67ec8f7d.css",
-    "main.js": "/portfolio/static/js/main.eb80143d.js",
+    "main.js": "/portfolio/static/js/main.93b49b11.js",
     "static/css/487.bb36206c.chunk.css": "/portfolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.2ed0bf94.chunk.js": "/portfolio/static/js/487.2ed0bf94.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/portfolio/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.9bdcab81.chunk.js": "/portfolio/static/js/990.9bdcab81.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/SafeBitesLogo.png": "/portfolio/static/media/SafeBitesLogo.c009c12908c392ac4a3c.png",
+    "static/media/GoogleCloudMLBadge.png": "/portfolio/static/media/GoogleCloudMLBadge.07401e41d345c68f1aaf.png",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/PanjwaniManviResume.pdf": "/portfolio/static/media/PanjwaniManviResume.35fb42399b0692edd02b.pdf",
     "static/media/NokiaLOGO.png": "/portfolio/static/media/NokiaLOGO.499eb4791b1ea015c81e.png",
@@ -17,10 +18,11 @@
     "static/media/IMUNLogo.jpeg": "/portfolio/static/media/IMUNLogo.20663823e78521a32fae.jpeg",
     "static/media/ClarkUniversityLogo.png": "/portfolio/static/media/ClarkUniversityLogo.53ab6935921437479a04.png",
     "static/media/skill.svg": "/portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/SoftmaxLogo.svg": "/portfolio/static/media/SoftmaxLogo.ccb181da12e241cb63cb9c9ad84231ba.svg",
     "index.html": "/portfolio/index.html",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.67ec8f7d.css.map": "/portfolio/static/css/main.67ec8f7d.css.map",
-    "main.eb80143d.js.map": "/portfolio/static/js/main.eb80143d.js.map",
+    "main.93b49b11.js.map": "/portfolio/static/js/main.93b49b11.js.map",
     "487.bb36206c.chunk.css.map": "/portfolio/static/css/487.bb36206c.chunk.css.map",
     "487.2ed0bf94.chunk.js.map": "/portfolio/static/js/487.2ed0bf94.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/portfolio/static/css/990.c6a7ee28.chunk.css.map",
@@ -28,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.67ec8f7d.css",
-    "static/js/main.eb80143d.js"
+    "static/js/main.93b49b11.js"
   ]
 }
